@@ -15,8 +15,9 @@ export class Works extends Component {
 								My Recent Projects and Blogs
 						</h1>
 							<p className='works-description'>
-								These are all self-directed projects. You can find more work on my <a href="https://github.com/Tejaswi2737" target='__blank'>Github</a>.
-							 Below are just some of my most recent works. <a href="https://www.linkedin.com/in/tejaswi-kota-06926957/" target="_blank">Let me know if you have any questions!</a>
+								These are all self-directed projects. 
+								You can find more work on my <a href="https://github.com/Tejaswi2737" target='__blank'>Github</a>.
+							 Below are some of my most recent works. <a href="https://www.linkedin.com/in/tejaswi-kota-06926957/" target="_blank">Let me know if you have any questions!</a>
 							</p>
 							<CardDeck>
 								{work.map(item=>{

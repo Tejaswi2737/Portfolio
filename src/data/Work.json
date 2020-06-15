@@ -1,0 +1,56 @@
+[
+  {
+    "Title": "COVID-19 Daily Statistics",
+    "Tools": "React.js, Axios, Jupyter Notebook",
+    "img": "",
+    "Category": "Web ",
+    "Summary": "This project fetches raw data from John Hopkins repository and data is wrangled using Jupyter notebook. This website gives day to day statistics of COVID-19 cases for the first 30 countries",
+    "Demo": "https://covid19worldcases.web.app/",
+    "Code": "https://covid19worldcases.web.app/"
+  },
+  {
+    "Title": "COVID-19 Data Collection",
+    "Tools": "Jupyter Notebook, Python, HTML",
+    "img": "https://miro.medium.com/max/960/1*aSJ-urj4e5J8oGYmFp8f4w.gif",
+    "Category": "Blog",
+    "Summary": "Download the daily data wrangled COVID-19 statistics for all countries in the click of a button.",
+    "Demo": "https://medium.com/@teja37.kota/covid-19-data-collection-4b32a4b8b8f3",
+    "Code": "https://github.com/Tejaswi2737/Covid_Data_Extraction"
+  },
+  {
+    "Title": "Web Scraping using BeautifulSoup made easy!",
+    "Tools": "Jupyter Notebook, Python, HTML, Web Scraping",
+    "img": "https://www.hdfstutorial.com/wp-content/uploads/2019/11/web-scraping.png",
+    "Category": "Blog",
+    "Summary": "A Detailed Step by Step Tutorial to extract information you need from any Wikipedia page.",
+    "Demo": "https://medium.com/@teja37.kota/web-scraping-using-beautifulsoup-made-easy-c2deeac1d231",
+    "Code": "https://github.com/Tejaswi2737/Coursera_Capstone/blob/master/CapStone/Web%20Scraping/Mel%20Stations_Scraping.ipynb"
+  },
+  {
+    "Title": "Sydney Vs Melbourne — Top Venues Categories",
+    "Tools": "Jupyter Notebook, Python, HTML, Machine Learning , HTML, Data Analytics, Clustering",
+    "img": "https://miro.medium.com/max/1400/0*r-7Ixpaoa5jHhYT0",
+    "Category": "Blog",
+    "Summary": "A comparative study of the top 10 venue categories in Sydney and Melbourne. Around 4000 venues details were analyzed in each city ",
+    "Demo": "https://medium.com/@teja37.kota/sydney-vs-melbourne-top-venues-categories-928904269c5b",
+    "Code": "https://github.com/Tejaswi2737/Coursera_Capstone/blob/master/CapStone/Mel_Sydney_Venues/Melbourne_Sydney_Venue_Comparison.ipynb"
+  },
+  {
+    "Title": "Sydney Vs Melbourne: Train Connectivity",
+    "Tools": "Jupyter Notebook, Python, HTML, Machine Learning , HTML, Data Analytics, Clustering",
+    "img": "https://miro.medium.com/max/1400/0*vCIn2DljKxk8le1g",
+    "Category": "Blog",
+    "Summary": "Analysis comparing how well Sydney and Melbourne’s suburbs are connected by train. All the suburbs in each city are clustered based on their proximity to any train stations as well",
+    "Demo": "https://medium.com/@teja37.kota/sydney-vs-melbourne-train-connectivity-3001bbcc5b81",
+    "Code": "https://github.com/Tejaswi2737/Coursera_Capstone/blob/master/CapStone/Mel_Sydney_Connectivity/Melbourne_Sydney_Train_Connectivity.ipynb"
+  },
+  {
+    "Title": "How well is Melbourne connected by Train?",
+    "Tools": "Jupyter Notebook, Python, HTML, Machine Learning , HTML, Data Analytics, Clustering",
+    "img": "https://miro.medium.com/max/1400/0*2mFUuCirm1NjRuMa",
+    "Category": "Blog",
+    "Summary": "An analysis of suburbs and their connectivity with train stations.",
+    "Demo": "https://medium.com/@teja37.kota/how-well-is-melbourne-connected-by-train-6fed9c257308",
+    "Code": "https://github.com/Tejaswi2737/Coursera_Capstone/blob/master/CapStone/Mel%20connectivity/Melbourne_Train_Connectivity.ipynb"
+  }
+ ]

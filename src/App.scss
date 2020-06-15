@@ -1,0 +1,750 @@
+
+
+$my-blue: #0052a4;
+$my-orange: #ffb30f;
+$my-black: #222327;
+$base-font: 18px;
+
+
+/*change primary blue to my website blue, other preferences*/
+.nav-bar-pref .btn-outline-primary {
+  color: $my-blue !important;
+  border-color: $my-blue !important;
+  border-width:2px !important;
+  font-size:$base-font !important;
+  border-radius:20px !important;
+  font-weight:500 !important;
+}
+
+/*change primary blue to my website blue*/
+.nav-bar-pref .btn-outline-primary:hover {
+  color: white !important;
+  background-color: $my-blue !important;
+}
+
+/*the navbar stretches too wide on wide screens*/
+.nav-bar-pref {
+  background-color:#fff;
+  margin: auto;
+  height:75px;
+  width:100vw;
+  position:fixed;
+  top:0;
+  z-index:100;
+  padding-bottom:5px;
+}
+
+.navbar {
+  margin:auto;
+  max-width:1000px;
+  padding: 0rem 1.5rem !important;
+  height:75px;
+  padding-bottom:5px
+}
+
+/*logo is slightly off-centered vertically, this fixes it, and width*/
+.my-logo {
+  width:140px;
+  padding-top:14px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Title---------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/*don't want the gray background, and text left-align by default*/
+.title-container {
+  background-color:white !important;
+  text-align:center;
+  padding:0px 10px;
+}
+
+#title h1 {
+  font-size:$base-font*2.5;
+  line-height:$base-font*3;
+  font-weight:bold;
+  color: $my-black;
+  letter-spacing:-1px;
+}
+
+#title p {  
+  color: $my-black;
+  font-size:$base-font*1.5;
+  line-height:$base-font*2.5;
+  margin-top:$base-font;
+  font-weight:400;
+  letter-spacing:-1px;
+}
+
+/*avatar is smaller, needs a littls space*/
+.avatar {
+  height:180px;
+  margin-top:30px;
+}
+
+/*title should be taller, and content centered*/
+#title {
+  height:100vh;
+  padding-top:75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Profile-------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/*profile switches to blue background*/
+#profile {
+  background-color: $my-blue;
+  color:white;
+  padding:$base-font*3 $base-font;
+  text-align:center;
+}
+
+#profile .container, #profile .col, #profile .row {
+  margin:0px auto;
+  padding:0px;  
+  max-width:1000px;
+}
+
+#profile a {
+  color:$my-orange;
+}
+
+#profile p a {
+  font-weight:500;
+}
+
+/*too big and not enough spacing*/
+#profile h1 {
+  font-size:$base-font*2;
+  line-height:$base-font*3;
+  margin-bottom:$base-font;
+  font-weight:800;
+}
+
+/*too small*/
+#profile p {
+  font-size:$base-font*1;
+  line-height:$base-font*2;
+  font-weight:300;
+  margin-bottom:$base-font;
+  letter-spacing:-.5px;
+}
+
+/*change primary blue to my website blue, other preferences*/
+#profile .btn-outline-primary {
+  color: $my-orange !important;
+  border-color: $my-orange !important;
+  border-width:2px !important;
+  font-size:18px !important;
+  border-radius:18px !important;
+  font-weight:700 !important;
+  padding:10px;
+}
+
+/*change primary blue to my website blue*/
+#profile .btn-outline-primary:hover {
+  color: $my-blue !important;
+  background-color: $my-orange !important;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Skills--------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/*skills box will lay over profile background*/
+/*give border and box shadow on the bottom*/
+#skills {
+  margin:-1.5*$base-font auto auto;
+  width:95%;
+  max-width:1000px;
+  border-radius:10px;
+  background-color:white;
+  text-align: center;
+  border: 2px solid $my-blue;
+  box-shadow: 0px 15px 10px -10px #888888;
+}
+
+/*size and center align the code icon*/
+#skills .code-icon {
+  height:5*$base-font;
+  display:block;
+  margin:2*$base-font auto;
+}
+
+
+/*too big and not enough spacing*/
+#skills h1 {
+  font-size:1.5*$base-font;
+  line-height:2*$base-font;
+  margin-bottom:1*$base-font;
+  font-weight: bold;
+}
+
+#skills h2 {
+  font-size:1*$base-font;
+  line-height:2*$base-font;
+  margin-bottom:1*$base-font;
+  color: $my-blue;
+}
+
+/*paragraph font too small*/
+#skills p {
+  font-size:1*$base-font;
+  line-height:2*$base-font;
+  margin-bottom:1*$base-font;
+}
+
+/*remove bullets*/
+#skills ul {
+  list-style:none !important;
+  margin: 0;
+  padding: 0;
+  font-size:1*$base-font;
+  line-height:2*$base-font;
+  margin-bottom:2*$base-font;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Works---------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/*container*/
+#works {
+  text-align:center;
+  margin: $base-font*3 0px auto;
+}
+
+#works .container { 
+  max-width:1000px;
+}
+
+/*"My Projects" header*/
+#works h1 {
+  font-size:$base-font*2;
+  line-height:$base-font*3;
+  letter-spacing:-.5px;
+  font-weight:bold;
+  margin:0px $base-font*2 5px;
+}
+
+/*more space, spacing, size*/
+.works-description {
+  font-size:$base-font;
+  line-height:$base-font*2;
+  margin-bottom:$base-font*2; 
+  width:90%;
+  max-width:1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*contains all cards*/
+#works .card-deck {
+  margin-right:0px;
+  margin-left:0px;
+}
+
+/*each individual card*/
+#works .card {
+  max-width:500px;
+  margin-bottom:$base-font*2;
+  border-color: $my-blue;
+  border-radius:10px;
+  min-width:300px;  
+  box-shadow: 0px 15px 10px -10px #888888;
+}
+
+/*holds each image*/
+#works .card-img-container {
+  width:95%;
+  max-width:420px;
+  max-height:300px;
+  margin:$base-font auto;
+  border-radius:10px;
+  border:2px solid #cccccc;
+  box-shadow: 0px 3px 2px -2px #888888;
+  overflow:hidden;
+}
+
+#works img {  
+  transition: transform .5s ease;
+}
+
+#works img:hover {
+  transform: scale(1.5) rotate(-17deg);
+}
+
+/*everything below the image*/
+#works .card-body {
+  padding: 0px 1.25rem;
+  margin-bottom:$base-font;
+}
+
+/*name of project*/
+.card-app-name {
+  font-size:$base-font*1.5;
+  color: $my-blue;
+  font-weight:500;
+  margin-bottom:$base-font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+/*technology list, no specific height*/
+.card-tech {
+  font-size:$base-font;
+  margin: $base-font 0px;
+  line-height:$base-font*2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*the actual summary subheader*/
+#works .summary {  
+  font-size:$base-font;
+  color: $my-blue;
+  font-weight:500;
+  margin-bottom:$base-font;
+}
+
+/*summary of project, no specific height*/
+#works .card-summary {
+  font-size:$base-font;
+  margin-bottom: $base-font;
+  line-height:$base-font*2;
+}
+
+
+/*change primary blue to my website blue, other preferences*/
+#works .btn-outline-primary {
+  color: $my-blue !important;
+  border-color: $my-blue !important;
+  border-width:2px !important;
+  font-size:$base-font;
+  border-radius:20px !important;
+  font-weight:500 !important;
+}
+
+/*change primary blue to my website blue*/
+#works .btn-outline-primary:hover {
+  color: white !important;
+  background-color: $my-blue !important;
+}
+
+/*change secondary color, other preferences*/
+#works .btn-outline-secondary {  
+  color: #28a6a7 ;
+  border-color: #28a6a7 ;
+  border-width:2px !important;
+  font-size:$base-font !important;
+  border-radius:20px !important;
+  font-weight:500 !important;
+  width:119.48px;
+  margin-left:5px;
+}
+
+/*change secondary color, other preferences*/
+#works .btn-outline-secondary:hover {
+  color: white ;
+  background-color: #28a6a7 ;
+}
+
+#works .disable {
+  color:gray;
+  border-color:gray;
+}
+
+#works .disable:hover {
+  cursor:not-allowed;
+  color:gray;
+  border-color:gray;
+  background-color:white;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Testimonials--------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/*testimonials*/
+#testimonials {
+  text-align: center;
+  margin-top:$base-font*2;
+}
+
+/*Testimonials header*/
+#testimonials .testimonials-header {
+  font-size:$base-font*2;
+  line-height:$base-font*2.5;
+  font-weight:bold;
+  margin-bottom:$base-font*1;
+}
+
+#testimonials .description {
+  font-size:$base-font*1.25;
+  line-height:$base-font*1.75;
+  margin-bottom:$base-font*2.5;
+  width:90%;
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#testimonials .quote {
+  font-size:$base-font;
+  line-height:$base-font*2;
+  font-family: 'Handlee', cursive;
+  font-weight: 600;
+}
+
+#testimonials .quote-source {
+  font-size:$base-font;
+  font-weight: 800;
+  color:$my-blue;
+  margin-bottom:$base-font*.75;
+}
+
+#testimonials .quote-title {
+  font-size:$base-font*.75;
+  line-height:$base-font;
+  font-weight:300;
+  margin-bottom:$base-font*2.5;
+}
+
+.testimonials-container {
+  margin-bottom:$base-font*1;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Call to action------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+#call-to-action {
+  background-color:$my-black;
+  border-radius:10px;
+  color:white;
+  text-align: center;
+  margin: auto;
+  width:95%;
+  max-width:1000px;
+  margin-bottom:-72px;
+  position:relative;
+  z-index:1;
+}
+
+#call-to-action .container {
+  height:8*$base-font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#call-to-action .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*change primary blue to my website blue, other preferences*/
+#call-to-action .btn-outline-primary {
+  color: white;
+  background-color:$my-black;
+  border-color: $my-blue;
+  border-width:2px;
+  font-size:$base-font;
+  border-radius:40px;
+  font-weight:500;
+  width:150px;
+}
+
+.call-to-action-description {
+  font-size:$base-font;
+  line-height: $base-font*2;
+  margin-bottom:0px;
+}
+
+/*change primary blue to my website blue*/
+#call-to-action .btn-outline-primary:hover {
+  color: white;
+  background-color: $my-blue;
+}
+
+.call-to-action-command {
+  font-size:$base-font*2;
+  font-weight:800;
+  margin-bottom:0px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Bottom--------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/*foot height, space, color*/
+#bottom {
+  padding-top:$base-font*3+72px;
+  background-color: $my-blue;
+  text-align:center;
+  position:relative;
+}
+
+/*ethan vernon ant head*/
+#bottom .my-logo {
+  width:90vw;
+  max-width:300px;
+  padding-top:0px;
+}
+
+/*space for buttons*/
+#bottom .my-links {
+  margin: $base-font*3 $base-font;
+  line-height:$base-font*2.5;
+}
+
+/*space between buttons*/
+#bottom .fa-layers {
+  margin: 0px $base-font;
+}
+
+/*non-hover color for circles*/
+#bottom .icon-circles-white {
+  color:white;
+}
+
+/*hover color for circles*/
+#bottom .icon-circles-dark {
+  color:$my-black;
+}
+
+/*non-hover icon color*/
+#bottom .icon-inners-dark {
+  color:$my-blue;
+  margin-left:8px;
+}
+
+/*hover color for icons*/
+#bottom .icon-inners-white {
+  color:white;
+  margin-left:8px;
+}
+
+/*pointer on hover*/
+#bottom .icon-circles:hover, #bottom .icon-inners:hover {
+  cursor:pointer;
+}
+
+/*less white copyright font*/
+#copyright {
+  color:#d8d8d8;
+  line-height:$base-font;
+  margin-bottom:$base-font*2;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Media queries >767px------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+  /*avatar can be a bit bigger on large screens*/
+  .avatar {
+    height:225px;
+  }
+
+  /*bigger for large screen*/
+  #title h1 {
+    font-size:$base-font*3;
+    line-height:$base-font*4;
+  }
+
+  /*cards need uniformity when displayed adjacent*/
+  /*fits 2 lines*/
+  #works .card-app-name {
+    height:80px;
+  }
+  /*fits 3 lines*/
+  #works .card-tech {
+    height:108px;
+  }
+  /*fits 7 lines*/
+  #works .card-summary {
+    height:252px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Media queries >992px-----------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+
+  /*bigger for large screen*/
+  #title h1 {
+    font-size:$base-font*3.5;
+    line-height:$base-font*4.5;
+    margin-bottom:0px
+  }  
+
+  #title p {
+    font-size:$base-font*1.75;
+    line-height:$base-font*2.75;
+    max-width:1000px
+  }
+
+  #profile h1 {
+    font-size:$base-font*2;
+    line-height:$base-font*3;
+  }
+
+  #profile p {
+    font-size:$base-font*1.25;
+    line-height:$base-font*2.25;
+  }
+
+  /*cards need uniformity when displayed adjacent*/
+  /*fits 1 line*/
+  #works .card-app-name {
+    height:40px;
+  }
+  /*fits 3 lines*/
+  #works .card-tech {
+    height:108px;
+  }
+  /*fits 5 lines*/
+  #works .card-summary {
+    height:180px;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Media queries <550px------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+/*formerly 350px*/
+
+@media only screen and (max-width: 550px) {
+  /*logo too wide for tiny screens*/
+  .my-logo {
+    width:140px;
+    padding-top:14px;
+  }
+
+  .nav-bar-pref {
+    height:75px;
+    padding-bottom:5px
+  }
+
+  .navbar {
+    height:100%;
+  }
+
+  #title {
+    padding-top:75px;
+  }
+
+  #title h1 {
+    font-size:$base-font*2.5;
+    line-height:$base-font*3;
+    margin-bottom:0px;
+  }  
+
+  #title p {
+    font-weight:500;
+    font-size:$base-font*1;
+    line-height:$base-font*1.5;
+    margin-bottom:$base-font;
+  }
+
+  #profile h1 {
+    font-size:$base-font*2;
+    line-height:$base-font*2.5;
+  }
+
+  #profile p {
+    font-size:$base-font;
+    line-height:$base-font*2;
+  }
+
+  .avatar {
+    margin-top:0px
+  }
+
+  /*button too big*/
+  .nav-bar-pref .btn-outline-primary {
+    border-width:2px !important;
+    font-size:15px !important;
+    border-radius:20px !important;
+    font-weight:500 !important;
+  }
+
+  /*cards don't fit small screens*/
+  #works .col {
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  /*cards don't fit small screens*/
+  #works .card-deck{
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+
+  /*cards don't fit small screens*/
+  #works .card {
+    margin-right:auto;
+    margin-left:auto;
+  }
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Media queries <766px------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 766px) {
+  #call-to-action {
+    margin-bottom: -124px;
+  }
+
+  #call-to-action .container {
+    height:auto;
+    padding: $base-font 15px;
+  }
+
+  #call-to-action .col-md-4 {
+    margin-bottom:$base-font;
+  }
+
+  #bottom {
+    padding-top:$base-font*3+124px;
+  }
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------Media queries <680------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 705px) {
+  #works .card-deck {
+    margin-right: auto;
+    margin-left:auto;
+    max-width:500px;
+  }
+}
+
+
+
+

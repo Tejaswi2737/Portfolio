@@ -75,6 +75,9 @@ $base-font: 18px;
   font-weight:400;
   letter-spacing:-1px;
 }
+#title a:hover{
+  text-decoration: none;
+}
 
 /*avatar is smaller, needs a littls space*/
 .avatar {

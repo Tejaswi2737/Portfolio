@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import { NavHeader } from './NavHeader';
-import { Title } from './Title';
-import { Profile } from './Profile';
-import { Skills } from './Skills';
-import { Works } from './Works';
-import { Bottom } from './Bottom';
-import { CallToAction } from './CallToAction';
-
+import { NavHeader } from './components/NavHeader';
+import  Title  from './components/Title';
+import { Profile } from './components/Profile';
+import  Skills  from './components/Skills';
+import  Works  from './components/Works';
+import { Bottom } from './components/Bottom';
+import { CallToAction } from './components/CallToAction';
 
 export class Home extends Component {
 	constructor(props) {
@@ -26,7 +25,6 @@ export class Home extends Component {
 		let change;
 
 		switch (name) {
-
 			case 'github':
 				change = !this.state.githubColor;
 				console.log('githubColor changed to ' + change);

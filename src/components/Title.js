@@ -5,7 +5,7 @@ import myAvatar from '../images/avatar.jpg';
 const Title=()=> {
 		return (
 			<div id='title'>
-				<a href="/">
+				<a href="https://tejaswi2737.github.io/Portfolio/">
 					<div className='title-container'>
 						<h1 className="display-5">Front-End Web Developer</h1>
 						<p className="lead">I'm a self-taught Front-End Web Developer.</p>

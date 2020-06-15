@@ -9,12 +9,11 @@ export class Profile extends Component {
 			<div id='profile'>
 				<Container><Row><Col>
 					<h1>
-						Hello, I'm Tejaswi, <a href="https://www.linkedin.com/in/tejaswi-kota-06926957/" target='__blank'>let's talk!</a>
+						Hello, I'm Tejaswi,
 					</h1>
 					<p>
 						I am a Structural Engineer by profession and coder by passion. <br></br>
 						My long time love for coding drove me to learn web development and data analytics... <br></br>
-						Then I started this journey and haven't looked back!<br></br>
 						Currently I'm looking for job oppurtunities 
 						as <strong>Web-Developer</strong>/ 
 						<strong>Data Analyst</strong> in <strong>Newcastle, Australia,</strong>

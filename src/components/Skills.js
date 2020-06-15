@@ -19,6 +19,7 @@ const Skills=()=>{
               </p>
               <h2>Tools I use:</h2>
               <ul>
+                <li>React</li>
                 <li>Redux</li>
                 <li>React Router</li>
                 <li>Hooks</li>
@@ -43,14 +44,16 @@ const Skills=()=>{
                   <h1>Data Analytics and Machine Learning</h1>
                   <h2>Things I've learned:</h2>
                   <p>
-                    Python, Jupyter Notebook, Machine Learning, Regression Analysis, Clustering and more...
+                    Python, Pandas,scikit-learn, Jupyter Notebook, Machine Learning, Regression Analysis, Clustering and more...
                   </p>
                   <h2>Tools I use:</h2>
                   <ul>
                     <li>Jupyter Notebook</li>
+                    <li>Pandas</li>
+                    <li>scikit-learn</li>
                     <li>Python</li>
                     <li>Regression Analysis</li>
-                    <li>Clustering</li>
+                    <li>K-means Clustering</li>
                     <li>Machine Learning</li>
                     <li>Github</li>
                     <li>And more...</li>

@@ -1,28 +1,30 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c7a31749.chunk.css",
-    "main.js": "/Portfolio/static/js/main.0cbf1b4c.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.0cbf1b4c.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.fa0a17f5.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.fa0a17f5.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.0b8f270d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.0b8f270d.js.map",
     "static/css/2.92a0e85f.chunk.css": "/Portfolio/static/css/2.92a0e85f.chunk.css",
-    "static/js/2.78a76288.chunk.js": "/Portfolio/static/js/2.78a76288.chunk.js",
-    "static/js/2.78a76288.chunk.js.map": "/Portfolio/static/js/2.78a76288.chunk.js.map",
+    "static/js/2.7661d2dc.chunk.js": "/Portfolio/static/js/2.7661d2dc.chunk.js",
+    "static/js/2.7661d2dc.chunk.js.map": "/Portfolio/static/js/2.7661d2dc.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.4cc7ed06180f1767abe5020e29216cdf.js": "/Portfolio/precache-manifest.4cc7ed06180f1767abe5020e29216cdf.js",
+    "precache-manifest.a2a6ec7df99753b81d76505176ab6bb5.js": "/Portfolio/precache-manifest.a2a6ec7df99753b81d76505176ab6bb5.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.92a0e85f.chunk.css.map": "/Portfolio/static/css/2.92a0e85f.chunk.css.map",
     "static/css/main.c7a31749.chunk.css.map": "/Portfolio/static/css/main.c7a31749.chunk.css.map",
-    "static/js/2.78a76288.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.78a76288.chunk.js.LICENSE.txt",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.4368bf39.pdf",
+    "static/js/2.7661d2dc.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.7661d2dc.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.f78ae526.pdf",
     "static/media/code-icon.svg": "/Portfolio/static/media/code-icon.356b6fb2.svg",
-    "static/media/covid_web.PNG": "/Portfolio/static/media/covid_web.e0995c3d.PNG"
+    "static/media/covid_web.PNG": "/Portfolio/static/media/covid_web.e0995c3d.PNG",
+    "static/media/portfolio.PNG": "/Portfolio/static/media/portfolio.c8e9d644.PNG",
+    "static/media/racing.PNG": "/Portfolio/static/media/racing.5ea8afab.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.0b8f270d.js",
     "static/css/2.92a0e85f.chunk.css",
-    "static/js/2.78a76288.chunk.js",
+    "static/js/2.7661d2dc.chunk.js",
     "static/css/main.c7a31749.chunk.css",
-    "static/js/main.0cbf1b4c.chunk.js"
+    "static/js/main.fa0a17f5.chunk.js"
   ]
 }

@@ -44,7 +44,7 @@ const Skills=()=>{
                   <h1>Data Analytics and Machine Learning</h1>
                   <h2>Things I've learned:</h2>
                   <p>
-                    Python, Pandas,scikit-learn, Jupyter Notebook, Machine Learning, Regression Analysis, Clustering and more...
+                    Python, Pandas,scikit-learn, Jupyter Notebook, Machine Learning, SQL, Regression Analysis, Clustering and more...
                   </p>
                   <h2>Tools I use:</h2>
                   <ul>

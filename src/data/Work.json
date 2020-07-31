@@ -1,12 +1,30 @@
 [
   {
+    "Title": "Totalizer Betting",
+    "Tools": "React.js, Redux, CSS, Responsive Web Design, State Management,JSON",
+    "img": "",
+    "Category": "Web ",
+    "Summary": "A react front end application for totalizer betting. The currently available desktop version can mock Win/Place, Quinella and Duet bets.",
+    "Demo": "https://tejaswi2737.github.io/Racing-Hub/",
+    "Code": "https://github.com/Tejaswi2737/Racing-Hub"
+  },
+  {
     "Title": "COVID-19 Daily Statistics",
     "Tools": "React.js, Axios, Jupyter Notebook",
     "img": "",
     "Category": "Web ",
     "Summary": "This project fetches raw data from John Hopkins repository and data is wrangled using Jupyter notebook. This website gives day to day statistics of COVID-19 cases for the first 30 countries",
-    "Demo": "https://covid19worldcases.web.app/",
-    "Code": "https://covid19worldcases.web.app/"
+    "Demo": "https://tejaswi2737.github.io/CovidWebApp/",
+    "Code": "https://github.com/Tejaswi2737/CovidWebApp"
+  },
+  {
+    "Title": "Customizable Personal Portfolio",
+    "Tools": "React.js, Hooks, JSON",
+    "img": "",
+    "Category": "Web ",
+    "Summary": "A totally customizable and re-usable personal portfolio webpage developed using React. Most of the components are re-usable and extendible by simply updating the JSON data.",
+    "Demo": "https://tejaswi2737.github.io/Portfolio/",
+    "Code": "https://github.com/Tejaswi2737/Portfolio"
   },
   {
     "Title": "COVID-19 Data Collection",

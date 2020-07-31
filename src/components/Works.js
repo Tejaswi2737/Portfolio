@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText, Button, CardDeck } from 'reactstrap';
-import covid from  "../images/covid_web.PNG"
+import covid from  "../images/covid_web.PNG";
+import port from  "../images/portfolio.PNG"
+import race from  "../images/racing.PNG"
+
 import work from "../data/Work.json"
 
 const Works=()=> {
@@ -24,7 +27,7 @@ const Works=()=> {
 										<div className='card-img-container'>
 											<a href={item.Demo} target="_blank" rel="noopener noreferrer">
 												<CardImg top width="100%" 
-												src={item.img?item.img:covid} alt="Card image cap" /></a>
+												src={item.img?item.img:item.Title==="COVID-19 Daily Statistics"?covid:item.Title==="Totalizer Betting"?race:port} alt="Card image cap" /></a>
 										</div>
 										<CardBody>
 											<CardTitle className='card-app-name'>{item.Title}</CardTitle>
@@ -32,7 +35,7 @@ const Works=()=> {
 											<p className="summary">Summary</p>
 											<CardText className='card-summary'>{item.Summary}</CardText>
 											<a href={item.Demo} target="_blank" rel="noopener noreferrer">
-												<Button outline color="primary">{item.Category=="Blog"?"View Blog":"View Demo"}</Button>
+												<Button outline color="primary">{item.Category==="Blog"?"View Blog":"View Demo"}</Button>
 											</a>
 											<a href={item.Code} target="_blank" rel="noopener noreferrer">
 												<Button outline color="secondary">View code</Button>

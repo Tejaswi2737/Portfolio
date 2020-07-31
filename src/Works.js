@@ -34,7 +34,7 @@ export class Works extends Component {
 											<p className="summary">Summary</p>
 											<CardText className='card-summary'>{item.Summary}</CardText>
 											<a href={item.Demo} target="_blank" rel="noopener noreferrer">
-												<Button outline color="primary">{item.Category=="Blog"?"View Blog":"View Demo"}</Button>
+												<Button outline color="primary">{item.Category==="Blog"?"View Blog":"View Demo"}</Button>
 											</a>
 											<a href={item.Code} target="_blank" rel="noopener noreferrer">
 												<Button outline color="secondary">View code</Button>

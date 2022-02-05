@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "292102d08cd7ebf9b40044781555a1d6",
+    "revision": "05548830f5d835a0309500109e514e7b",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.92a0e85f.chunk.css"
   },
   {
-    "revision": "fd98b3b1f134cfa2910d",
+    "revision": "56a90be44d1b2f44e030",
     "url": "/Portfolio/static/css/main.626621ee.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.cc5fd809.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd98b3b1f134cfa2910d",
-    "url": "/Portfolio/static/js/main.c89e62be.chunk.js"
+    "revision": "56a90be44d1b2f44e030",
+    "url": "/Portfolio/static/js/main.91e59a0c.chunk.js"
   },
   {
     "revision": "8336f3dd5187fb202881",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Covid-pred.e875086a.png"
   },
   {
-    "revision": "bd2e22cd23ed24e7dea05e9e5157b59e",
-    "url": "/Portfolio/static/media/Tejaswi_Kota_Resume.bd2e22cd.pdf"
+    "revision": "29d678d9d8d1469f9fc7bd6d4d14907d",
+    "url": "/Portfolio/static/media/Tejaswi_Kota_Resume.29d678d9.pdf"
   },
   {
     "revision": "356b6fb24f4724bed76073c9680a92d0",
